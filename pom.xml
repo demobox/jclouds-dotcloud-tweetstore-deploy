@@ -53,7 +53,7 @@
                             <artifactItems>
                                 <artifactItem>
                                     <groupId>${project.groupId}</groupId>
-                                    <artifactId>jclouds-demo-heroku-tweetstore</artifactId>
+                                    <artifactId>tweetstore-heroku-guice</artifactId>
                                     <version>${project.version}</version>
                                     <type>war</type>
                                 </artifactItem>
