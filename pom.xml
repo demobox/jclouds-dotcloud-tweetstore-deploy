@@ -53,7 +53,7 @@
                             <artifactItems>
                                 <artifactItem>
                                     <groupId>${project.groupId}</groupId>
-                                    <artifactId>tweetstore-heroku-guice</artifactId>
+                                    <artifactId>tweetstore-dotcloud-guice</artifactId>
                                     <version>${project.version}</version>
                                     <type>war</type>
                                 </artifactItem>
@@ -78,7 +78,7 @@
                         </goals>
                         <configuration>
                             <resourceBundles>
-                                <resourceBundle>${project.groupId}:jclouds-demos-tweetstore-jclouds-properties:2-heroku-tweetstore</resourceBundle>
+                                <resourceBundle>${project.groupId}:jclouds-demos-tweetstore-jclouds-properties:2-dotcloud-tweetstore</resourceBundle>
                             </resourceBundles>
                         </configuration>
                     </execution>
