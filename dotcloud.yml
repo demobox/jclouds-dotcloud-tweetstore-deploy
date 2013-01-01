@@ -1,3 +1,5 @@
 www:
   type: java
+  config:
+    jetty_version: jetty-7
   approot: tweetstore
