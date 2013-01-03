@@ -1,1 +1,2 @@
+MAILTO="demoboxguard-laapbunny@yahoo.co.uk"
 */10 * * * * ~/jobs/tweetstore/enqueue-store-tweet-tasks.sh
