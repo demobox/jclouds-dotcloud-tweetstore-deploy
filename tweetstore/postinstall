@@ -1,9 +1,6 @@
 #!/bin/sh
-echo DEBUG: In postinstall, SERVICE_ID: $DOTCLOUD_SERVICE_ID >> ~/postinstall_debug.log
 if [ "$DOTCLOUD_SERVICE_ID" = "0" ]; then
-  echo Registering crontab ~/code/jobs/crontab >> ~/postinstall_debug.log
+  echo Registering crontab ~/code/jobs/crontab
   set -e
   crontab ~/code/jobs/crontab
 fi
-echo DEBUG: crontab -l >> ~/postinstall_debug.log
-crontab -l >> ~/postinstall_debug.log
