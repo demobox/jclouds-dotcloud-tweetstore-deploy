@@ -3,3 +3,5 @@ www:
   config:
     jetty_version: jetty-7
   approot: tweetstore
+  environment:
+    HOST_HTTP: `hostname`

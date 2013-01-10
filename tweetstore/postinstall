@@ -1,6 +1,4 @@
 #!/bin/sh
-echo Setting HOST_HTTP environment variable to $DOTCLOUD_PROJECT-$DOTCLOUD_ENVIRONMENT-$DOTCLOUD_SERVICE_NAME-$DOTCLOUD_SERVICE_ID
-export HOST_HTTP=$DOTCLOUD_PROJECT-$DOTCLOUD_ENVIRONMENT-$DOTCLOUD_SERVICE_NAME-$DOTCLOUD_SERVICE_ID
 if [ "$DOTCLOUD_SERVICE_ID" = "0" ]; then
   echo Registering crontab ~/code/jobs/crontab
   set -e
