@@ -4,4 +4,4 @@ www:
     jetty_version: jetty-7
   approot: tweetstore
   environment:
-    HOST_HTTP: `hostname`
+    WWW_HTTP_PORT: 80
