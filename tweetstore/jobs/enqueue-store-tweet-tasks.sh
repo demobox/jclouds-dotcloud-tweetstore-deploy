@@ -1,5 +1,5 @@
 #!/bin/sh
-JOB_LOG_FILE=/home/dotcloud/code/jobs/enqueue-store-tweet-tasks.log
+JOB_LOG_FILE=~/current/jobs/enqueue-store-tweet-tasks.log
 if [ -e $JOB_LOG_FILE ] && [ `grep -c . $JOB_LOG_FILE` -gt 100 ]; then
   rm $JOB_LOG_FILE
 fi

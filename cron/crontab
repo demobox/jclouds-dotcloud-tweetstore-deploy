@@ -1,0 +1,1 @@
+*/10 * * * * ~/current/jobs/enqueue-store-tweet-tasks.sh
