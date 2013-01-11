@@ -1,6 +1,6 @@
 #!/bin/sh
 if [ "$DOTCLOUD_SERVICE_ID" = "0" ]; then
-  echo Registering crontab ~/code/jobs/crontab
+  echo Registering crontab ~/code/cron/crontab
   set -e
-  crontab ~/code/jobs/crontab
+  crontab ~/code/cron/crontab
 fi
