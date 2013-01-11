@@ -1,5 +1,9 @@
 #!/bin/sh
 if [ "$DOTCLOUD_SERVICE_ID" = "0" ]; then
+  ENV_FILE=~/code/cron/dotcloud-env.sh
+  echo Preparing environment file $ENV_FILE
+  echo DOTCLOUD_WWW_HTTP_HOST=$DOTCLOUD_WWW_HTTP_HOST > $ENV_FILE
+  echo WWW_HTTP_PORT=$WWW_HTTP_PORT >> $ENV_FILE
   echo Registering crontab ~/code/cron/crontab
   set -e
   crontab ~/code/cron/crontab
